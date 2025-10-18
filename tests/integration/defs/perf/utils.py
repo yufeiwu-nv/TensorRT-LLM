@@ -638,6 +638,9 @@ class AbstractPerfScriptTestClass(abc.ABC):
                       list(cvs_result_dict.keys()),
                       append_mode=os.path.exists(
                           os.path.join(output_dir, csv_name)))
+            print(output_dir, "yufei",
+                  os.path.exists(os.path.join(output_dir, csv_name)))
+
             if self._gpu_monitor_data is not None:
                 write_gpu_monitoring_no_test_results(output_dir,
                                                      self._gpu_monitor_data,
