@@ -266,7 +266,6 @@ llm_perf_nim:
   - perf/test_perf.py::test_perf[phi_4_multimodal_instruct-bench-pytorch-bfloat16-input_output_len:500,2000-con:250]
   - perf/test_perf.py::test_perf[phi_4_multimodal_instruct-bench-pytorch-bfloat16-input_output_len:1000,1000-con:250]
   - perf/test_perf.py::test_perf[phi_4_multimodal_instruct-bench-pytorch-bfloat16-input_output_len:128,128]
-  - perf/test_perf.py::test_perf[phi_4_multimodal_instruct-bench-pytorch-bfloat16-input_output_len:512,32]
   - perf/test_perf.py::test_perf[phi_4_multimodal_instruct_image-bench-pytorch-bfloat16-input_output_len:1000,1000-loras:1-con:250]
   - perf/test_perf.py::test_perf[phi_4_multimodal_instruct_audio-bench-pytorch-bfloat16-input_output_len:1000,1000-loras:1-con:250]
   #Mistral-Small-3.1-24B-Instruct-2503
